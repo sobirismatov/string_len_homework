@@ -9,8 +9,7 @@ def main(a,b):
     """
     s=0
     if len(a)==len(b):
-        s="true"
+        s="True"
     else:
-        s="false"
+        s="False"
     return s
-print(main("salom","salom"))
