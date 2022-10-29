@@ -1,6 +1,3 @@
-from re import S
-
-
 def main(a):
     """
     A string type variable is given. Return True if its length is even. Return False if its length is odd.
@@ -16,4 +13,3 @@ def main(a):
         s="false"
 
     return s
-print(main("saloom"))
