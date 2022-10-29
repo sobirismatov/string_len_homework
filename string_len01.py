@@ -1,3 +1,6 @@
+from re import S
+
+
 def main(a):
     """
     A variable of type string is given. Find its length.
@@ -6,4 +9,6 @@ def main(a):
     Returns:
         length of string
     """
-    return
+    s=len(a)
+    return s
+print(main("salom"))

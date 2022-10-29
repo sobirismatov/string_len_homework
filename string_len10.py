@@ -8,4 +8,9 @@ def main(s):
     Returns:
         bool: answer
     """
-    return
+    a= 0
+    if len(s)//10==len(s)%2:
+        s="True"
+    else:
+        s="False"
+    return s
