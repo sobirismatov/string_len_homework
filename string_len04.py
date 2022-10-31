@@ -8,4 +8,3 @@ def main(s):
     """
     a=len(s)
     return a*"*"
-print(main("salom"))

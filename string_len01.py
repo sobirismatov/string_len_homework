@@ -1,6 +1,3 @@
-from re import S
-
-
 def main(a):
     """
     A variable of type string is given. Find its length.
