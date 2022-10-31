@@ -9,6 +9,8 @@ def main(num1, num2):
     Returns:
         str: answer
     """
-    x=num1+num2
-    return  str(x)
 
+    x='%s' % (num1+num2)
+    return  x
+
+print(main("sa","lom"))
