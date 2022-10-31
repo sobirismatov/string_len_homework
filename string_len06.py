@@ -7,5 +7,5 @@ def main(s1,s2):
     Returns:
         shortest string
     """
-    s=len(s1)-len(s2)
+    s=abs(len(s1)-len(s2))
     return s
