@@ -9,5 +9,6 @@ def main(num1, num2):
     Returns:
         str: answer
     """
-    sum=f'{num1}+{num2}={num1+num2}'
+    sum=str(num1+num2)
     return sum
+print(main(12,5))
