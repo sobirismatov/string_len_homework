@@ -10,5 +10,5 @@ def main(num1, num2):
         str: answer
     """
 
-    return '%s+%s=%s'%(num1,num2,(num1+num2))
-print(main(12,5))
+    return str(num1+num2)
+
