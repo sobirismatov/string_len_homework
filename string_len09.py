@@ -13,4 +13,4 @@ def main(num1, num2):
     x='%s' % (num1+num2)
     return  x
 
-print(main("sa","lom"))
+print(main("5","5"))
