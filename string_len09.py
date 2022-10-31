@@ -9,5 +9,5 @@ def main(num1, num2):
     Returns:
         str: answer
     """
-    return type(f'{num1+num2}')
+    return str(num1+num2)
 print(main(12,5))
