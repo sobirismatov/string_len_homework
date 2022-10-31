@@ -10,7 +10,7 @@ def main(num1, num2):
         str: answer
     """
 
-    x='%s' % (num1+num2)
+    x= int(num1)+int(num2)
     return  x
 
 print(main("5","5"))
