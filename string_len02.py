@@ -8,8 +8,9 @@ def main(a):
     """
     s=0
     if len(a)%2==0:
-        s="True"
+        s=True
     else:
-        s="False"
+        s=False
 
     return s
+
