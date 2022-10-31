@@ -8,9 +8,9 @@ def main(s1,s2):
         shortest string
     """
     s=0
-    if len(s2)>len(s1):
-        s=s1
+    if len(s1)>len(s2):
+        s=s2
     else:
-        s=s2    
+        s=s1   
     
     return s
