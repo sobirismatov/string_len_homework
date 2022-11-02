@@ -8,4 +8,10 @@ def main(s):
     Returns:
         str: answer
     """
-    return
+    a=0
+    if len(s)%2==1:
+        a=len(s)//2
+        return s[a]
+    else:
+        return s[len(s)//2-1]+s[len(s)//2]
+print(main("saom"))
