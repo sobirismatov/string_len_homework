@@ -11,6 +11,6 @@ def main(num1, num2):
     """
 
     x= int(num1)+int(num2)
-    return  x
+    return  str(x)
 
 print(main("5","5"))
